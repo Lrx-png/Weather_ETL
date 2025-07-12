@@ -1,8 +1,13 @@
 import json
 import requests
 
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
 url = "https://api.windy.com/api/point-forecast/v2"
-api_key = "nXrBaP3RqsRZGHm62CDvHSh4BoyxW9cq"
+api_key = os.getenv("API_KEY")
 
 headers = {
     "Content-Type": "application/json",
