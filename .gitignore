@@ -7,3 +7,5 @@ grafana-data/
 *.db
 .env
 .DS_Store
+weather.json
+weather-v*.csv
