@@ -9,3 +9,5 @@ grafana-data/
 .DS_Store
 weather.json
 weather-v*.csv
+*.log
+*.sqlite3
